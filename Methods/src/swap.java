@@ -15,6 +15,7 @@ public class swap {
         int temp=a;
         a=b;
         b=temp;
-
+        //this change will only be valid int this function scope only.
+        //hence the value is not swapped.
     }
 }
