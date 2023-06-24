@@ -20,7 +20,8 @@ public class linearsearch2 {
             return -1;
         }
 
-        for (int element : arr) {
+        for (int i = 0; i < arr.length; i++) {
+            int element = arr[i];
             if (target == element) {
                 return element;
             }
