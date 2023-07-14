@@ -7,8 +7,9 @@ public class evenNOofDigits {
     }
     static  int findNumbers(int[] nums){
         int count=0;
-        for (int num:nums){
-            if (even(num)){
+        for (int i = 0; i < nums.length; i++) {
+            int num = nums[i];
+            if (even(num)) {
                 count++;
             }
         }
