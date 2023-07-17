@@ -13,7 +13,7 @@
 
 import java.util.Scanner;
 
-public class fibonacci {
+public class fibo2 {
     public static void main(String[] args) {
         Scanner In=new Scanner(System.in);
         int n= In.nextInt();
